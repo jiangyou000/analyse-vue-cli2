@@ -11,13 +11,13 @@ const FriendlyErrorsPlugin = require('friendly-errors-webpack-plugin')//命令�
 const portfinder = require('portfinder')//选择可用端口的工具
 
 /**
- * 关于webpack中的path、publicPath和contentBase
- * 这里还有一篇介绍 https://juejin.im/post/5bb085dd6fb9a05cd24da5cf
- * 
- * output里面的path表示的是output目录对应的一个绝对路径。
- * output里面的publicPath表示的是打包生成的index.html文件里面引用资源的前缀
- * devServer里面的publicPath表示的是打包生成的静态文件所在的位置（若是devServer里面的publicPath没有设置，则会认为是output里面设置的publicPath的值）
- * devServer里面的contentBase表示的是告诉服务器从哪里提供内容。（只有想提供静态文件时才需要）
+  关于webpack中的path、publicPath和contentBase
+  这里还有一篇介绍 https://juejin.im/post/5bb085dd6fb9a05cd24da5cf
+  
+  output里面的path表示的是output目录对应的一个绝对路径。
+  output里面的publicPath表示的是打包生成的index.html文件里面引用资源的前缀
+  devServer里面的publicPath表示的是打包生成的静态文件所在的位置（若是devServer里面的publicPath没有设置，则会认为是output里面设置的publicPath的值）
+  devServer里面的contentBase表示的是告诉服务器从哪里提供内容。（只有想提供静态文件时才需要）
  */
 
 
